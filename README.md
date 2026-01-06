@@ -1,6 +1,6 @@
-# TomCat WP
+# MS Semantic WP
 
-**TomCat WP** es un tema de WordPress semántico, accesible y personalizable. Es mi tema de WordPress para el proyecto TomCat.
+**MS Semantic WP** es un tema de WordPress semántico, accesible y personalizable. Es mi tema de WordPress para el proyecto TomCat.
 
 Está construido siguiendo buenas prácticas de desarrollo, evitando estilos inline, priorizando accesibilidad (WCAG) y usando el Personalizador nativo de WordPress.
 
