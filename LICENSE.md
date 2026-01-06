@@ -1,3 +1,11 @@
+
+
+El tema tiene licencia GPL, pero debido a que el logo, según el contrato de admisión del alumno "No podrá usarse", toda parte que tenga el logo o nombre del COLEGIO NUESTRA SEÑORA DE LA MISERICORDIA tiene derechos resevados
+
+
+---
+
+
                     GNU GENERAL PUBLIC LICENSE
                        Version 2, June 1991
 
