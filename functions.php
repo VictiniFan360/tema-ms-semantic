@@ -15,8 +15,6 @@ function semantic_wp_setup() {
     register_nav_menus([
         'primary'        => __('Menú principal', 'semantic-wp'),
         'footer_general' => __('Footer – General', 'semantic-wp'),
-        'footer_support' => __('Footer – Soporte', 'semantic-wp'),
-        'footer_collab'  => __('Footer – Colaborá', 'semantic-wp'),
         'footer_about'   => __('Footer – Acerca de', 'semantic-wp'),
     ]);
 }
@@ -60,29 +58,12 @@ function semantic_wp_footer_fallback($location) {
     $defaults = [
         'footer_general' => [
             'Inicio' => home_url('/'),
-            'Cómo funciona este sitio' => get_permalink(get_page_by_path('como-funciona')),
-            'Documentación' => get_permalink(get_page_by_path('documentacion')),
-            'Noticias' => get_permalink(get_page_by_path('noticias')),
-        ],
-        'footer_support' => [
-            'FAQs' => get_permalink(get_page_by_path('faqs')),
-            'Problemas conocidos' => get_permalink(get_page_by_path('problemas-conocidos')),
-            'Advertencias' => get_permalink(get_page_by_path('advertencias')),
-            'Accesibilidad' => get_permalink(get_page_by_path('accesibilidad')),
-        ],
-        'footer_collab' => [
-            'Colaborá' => get_permalink(get_page_by_path('colabora')),
-            'Reportar error' => get_permalink(get_page_by_path('reportar-error')),
-            'Traducir' => get_permalink(get_page_by_path('traducir')),
-            'Código fuente' => get_permalink(get_page_by_path('codigo-fuente')),
-            'GitHub' => 'https://github.com/Tom-Proyect-Revivial',
+            'Acerca de nosotros' => get_permalink(get_page_by_path('acerca-de')),
         ],
         'footer_about' => [
-            'Contacto' => get_permalink(get_page_by_path('contacto')),
-            'Misión y valores' => get_permalink(get_page_by_path('mision-valores')),
-            'Contrato social' => get_permalink(get_page_by_path('contrato-social')),
-            'Código de conducta' => get_permalink(get_page_by_path('codigo-de-conducta')),
-            'Licencia' => get_permalink(get_page_by_path('licencia')),
+            'Términos y condiciones' => get_permalink(get_page_by_path('terminos-y-condiciones')),
+            'Política de Privcidad' => get_permalink(get_page_by_path('privacidad')),
+            'Disclaimers' => get_permalink(get_page_by_path('disclaimers')),
         ],
     ];
 
