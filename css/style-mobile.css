@@ -1,0 +1,26 @@
+@media (min-width: 481px) and (max-width: 800px) {
+body.mobile, {
+    overflow-x: hidden;
+}
+.site-header,
+main#contenido-principal,
+.site-footer {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+    .navbar-collapse {
+        width: 100%;
+        overflow-y: auto;
+    }
+    .site-header .container,
+    main#contenido-principal {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .site-footer .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

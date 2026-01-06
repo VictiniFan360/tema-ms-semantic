@@ -1,0 +1,56 @@
+/*
+Theme Name: MS Semantic
+Theme URI: https://ms.ar.nf/
+Author: Alejo Fernández
+Author URI: https://alejofernandez.es.ht/
+Description: Tema semántico, accesible y personalizable
+Version: 2.0
+License: GNU General Public License v2 or later
+Text Domain: ms-wp
+*/
+
+:root {
+    --bg-image: none;
+}
+
+[data-bg="abstract"] {
+    --bg-image: url("../assets/bg-abstract.jpg");
+}
+
+[data-bg="nature"] {
+    --bg-image: url("../assets/bg-nature.jpg");
+}
+
+[data-bg="dark"] {
+    --bg-image: url("../assets/bg-dark.jpg");
+}
+
+body {
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.site-header {
+    background-image: var(--bg-image);
+}
+
+.site-footer {
+    background-image: var(--bg-image);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    body {
+        background-attachment: scroll;
+    }
+}
+
+.site-footer {
+    background-color: var(--semantic-footer-color);
+    color: #fff;
+}
+
+.site-footer a {
+    color: inherit;
+    text-decoration: underline;
+}
